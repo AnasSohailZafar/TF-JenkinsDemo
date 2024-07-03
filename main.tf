@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "rgtest" {
 }
 
 resource "azurerm_storage_account" "stracctest" {
-  name                     = "teststorageaccahlens"
+  name                     = "teststorageaccahlenss"
   resource_group_name      = azurerm_resource_group.rgtest.name
   location                 = azurerm_resource_group.rgtest.location
   account_tier             = "Standard"
