@@ -16,3 +16,18 @@ variable "appinsght_resources_tags" {
     Owner       = "IT Team"
   }
 }
+
+variable "client_id" {
+  description = "Client ID (APP ID) of the application"
+  type        = string
+}
+
+variable "client_secret" {
+  description = "Client Secret (Password) of the application"
+  type        = string
+}
+
+variable "tenant_id" {
+  description = "Tenant ID"
+  type        = string
+}
