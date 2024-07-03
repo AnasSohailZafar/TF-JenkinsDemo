@@ -16,6 +16,10 @@ variable "appinsght_resources_tags" {
     Owner       = "IT Team"
   }
 }
+variable "subscription_id" {
+  description = "Subscription ID"
+  type        = string
+}
 
 variable "client_id" {
   description = "Client ID (APP ID) of the application"
